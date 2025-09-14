@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #ff9bd6, #f863a3, #ffb3d9);
+  background-size: 300% 300%;
+  animation: bgAnimation 3.5s ease-in-out infinite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Header + Logo */
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+  transition: transform 0.4s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* Container */
+.login-container {
+  backdrop-filter: blur(15px);
+  padding: 40px 30px;
+  width: 320px;
+  text-align: center;
+  animation: submit 0.8s ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Input Groups */
+.input-group {
+  margin: 15px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-group input {
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid gray;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  transition: border 0.4s ease, box-shadow 0.4s ease, transform 0.2s ease;
+}
+
+.input-group input:hover {
+  border: 2px solid rgb(252, 23, 199);
+  transform: scale(1.02);
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 2px solid rgb(252, 23, 199);
+  box-shadow: 0 0 10px rgba(252, 23, 199, 0.6);
+}
+
+/* Checkbox */
+.input-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.input-group input[type="checkbox"]:hover {
+  transform: scale(1.1);
+}
+
+.input-group label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button[type="submit"] {
+  margin: 20px 0 10px 0;
+  background: linear-gradient(90deg, #ff70d6, #f950ff);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(255, 0, 217, 0.3);
+  transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: linear-gradient(90deg, #f950ff, #ff70d6);
+  transform: scale(1.05);
+}
+
+/* Links */
+.register, .forgot {
+  font-size: 14px;
+  text-decoration: none;
+  color: lightgray;
+  transition: color 0.3s ease;
+}
+
+.register:hover,
+.forgot:hover {
+  color: white;
+}
+
+/* Animations */
+@keyframes submit {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bgAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .login-container {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .input-group input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
