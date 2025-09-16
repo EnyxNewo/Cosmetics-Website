@@ -3,6 +3,8 @@
 Notes:
 -There are no currently Javascript, mySQL, PHP, and other backend languages so there are currently no databases for your accounts, ordering processes, and security processes
 
+-The starting page is login-page.html
+
 - To change your logo in your website:
     - Go to the "assets" folder or /asset and put your logo there then name it however you want
     - Open any IDE's / Integrated Development Environment, Notepad, Notepad++, or any text editor
