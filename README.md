@@ -6,9 +6,11 @@ Notes:
 - To change your logo in your website:
     - Go to the "assets" folder or /asset and put your logo there then name it however you want
     - Open any IDE's / Integrated Development Environment, Notepad, Notepad++, or any text editor
-    - find the tag " <img src="assets/test-loggo.png" alt="Test Logo" class="test-logo"> " You can change their name to your likings
+    - find the tag " < img src=assets/test-loggo.pn" alt="Test Logo" class=test-logo > " You can change their name to your likings /* Dont forget to add " to every attributes */
 
 - To change your logo in your tab
      - Go to the "assets" folder or /asset and put your logo there then name it however you want
     - Open any IDE's / Integrated Development Environment, Notepad, Notepad++, or any text editor
     - find the tag " <link rel="icon" type="image/png" href="test-logo.png"> " You can change their name to your likings
+ 
+  
