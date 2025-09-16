@@ -1,0 +1,179 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: radial-gradient(circle,rgba(255, 155, 214, 1) 0%, rgba(248, 99, 163, 1) 34%, rgba(255, 179, 217, 1) 100%);
+    background-size: 300% 300%;
+    animation: bgAnimation 5s ease-in-out infinite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+/* Header Container */
+.header-design-contents1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.main-header {
+  backdrop-filter: blur(15px);
+  background-color: rgba(201, 68, 168, 0.425);
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+ border-radius: 50%;
+  width: 70px;
+  height: auto;
+  margin-left: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.1);
+    box-shadow: #fff 0 0 10px;
+}
+.header-design-contents1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+   
+}
+
+.header-home {
+  position: absolute;
+  left: 20%;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  
+}
+.header-home:hover {
+  transform: scale(1.1)
+}
+
+.header-category {
+    position: absolute;
+    left: 27%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    }
+.header-category:hover {
+    transform: scale(1.1)
+    }
+
+.header-products {
+    position: absolute;
+    left: 38%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    }
+
+.header-products:hover {
+    transform: scale(1.1)
+}
+
+.header-aboutus {
+    position: absolute;
+    left: 49%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    }
+
+.header-aboutus:hover {
+    transform: scale(1.1)
+}
+
+.header-contacts {
+    position: absolute;
+    left: 59%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    }
+
+.header-contacts:hover {
+    transform: scale(1.1)
+}
+
+.header-user-icon{
+    position: absolute;
+    left: 75%;
+    bottom: 29%;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+.header-user-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.header-search-icon{
+    position: absolute;
+    left: 80%;
+    bottom: 33%;
+    width: 40px;
+    transition: transform 0.5s ease;
+}
+
+.header-search-icon:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.header-favorite-icon{
+    position: absolute;
+    left: 84%;
+    bottom: 33%;
+    width: 40px;
+    transition: transform 0.5s ease;
+}
+
+.header-favorite-icon:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+
+}
+
+.header-cart {
+    position: absolute;
+    left: 85%;
+    bottom: 33%;
+    width: 45px;
+    transition: transform 0.3s ease;
+}
+
+.header-cart:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+

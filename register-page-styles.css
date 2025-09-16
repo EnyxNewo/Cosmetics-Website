@@ -11,26 +11,8 @@ body {
   margin: 0;
 }
 
-/* Header + Logo */
-.header {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.logo {
-  width: 100px;
-  height: auto;
-  margin: 0 auto 20px auto;
-  display: block;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
-  transition: transform 0.4s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05) rotate(-2deg);
-}
-
 /* Container */
+
 .register-container {
   backdrop-filter: blur(15px);
   padding: 40px 30px;
@@ -120,7 +102,7 @@ button[type="submit"]:hover {
   transition: color 0.3s ease;
 }
 
-.login:hover, {
+.login:hover {
   color: white;
 }
 
