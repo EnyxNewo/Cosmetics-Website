@@ -58,8 +58,6 @@ Responsive Design FAQ:
   Add additional @media queries inside the respective CSS file
 
 Scripts FAQ:
-- Where is script.js used?
-  Currently script.js is referenced in login.html but incorrectly with <link>. Replace with <script src="script.js"></script>
 
 - Is there any working JavaScript yet?
   No, script.js is empty. Add logic there if needed
