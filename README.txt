@@ -32,11 +32,22 @@ Designing FAQ:
 - How do I change the favicon (tab icon)?
   Update <link rel="icon" type="image/png" href="your-logo.png"> in the <head>
 
+-how do i add/change the picture of my products?
+ Locate product-page.html and use this template:
+  <div class="product-card">
+                <img src="assets/file-name.webp" alt="Product Name" class="product-image">
+                <h2 class="product-name">THE MAKEUP LAB COSMETICS</h2>
+                <h2 class="product-name">Product Name</h2>
+                <p class="product-price">Price</p>
+/* Dont change the class element because it is connected to the css file of the product
+
 - How is the background animation handled?
   Through CSS @keyframes bgAnimation applied to the body element
 
 - How do i open the files without Visual Studio Code?
   Right Click the file then select "open with" then press the application you desire
+
+
 Responsive Design FAQ:
 - Is the website responsive?
   Yes, CSS media queries adjust styles for smaller screens (969px and 768px breakpoints on main page, 400px on login page)
