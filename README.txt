@@ -44,6 +44,8 @@ Designing FAQ:
 - How is the background animation handled?
   Through CSS @keyframes bgAnimation applied to the body element
 
+- How do i link another html page and css file?
+
 - How do i open the files without Visual Studio Code?
   Right Click the file then select "open with" then press the application you desire
 
