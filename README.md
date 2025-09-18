@@ -1,23 +1,23 @@
-# THE MAKE UP LAB COSMETICS
+## THE MAKE UP LAB COSMETICS
 
-Notes:
+## Notes:
 
-##Accounts Storing and Creation FAQ:
-- Does this project have a backend (PHP, MySQL, Node.js)?
-  No, the current project is front-end only. There is no database languages yet
+## Accounts Storing and Creation FAQ:
+- Does this project have a backend (PHP, MySQL, Node.js)?  
+No, the current project is front-end only. There is no database languages yet
 
 - Where are accounts stored?
-  Accounts are not stored. Login and register pages are static placeholders
+Accounts are not stored. Login and register pages are static placeholders
 
 - If we want to add real login functionality, what should we do?
   Implement a backend with PHP, Node.js, or another server technology and connect to a database
 
-##HTML and File Structure:
+## HTML and File Structure FAQ:
 - Where is the main entry point of the website?
   login.html
 
 - Where is the login page located?
-  login.html with its styles in login-styles.css
+  -login.html with its styles in login-styles.css
 
 - Where do we add new CSS rules?
   Each page has a separate stylesheet, for example main-page-styles.css and login-styles.css
@@ -25,7 +25,7 @@ Notes:
 - Where do we put images such as logos and icons?
   Place them inside the assets/ folder
 
-Designing FAQ:
+## Designing FAQ:
 - How do I change the site logo in the header?
   Update the `<img src="assets/your-logo.png">` tag in the HTML file
 
@@ -44,25 +44,25 @@ Designing FAQ:
 - How is the background animation handled?
   Through CSS @keyframes bgAnimation applied to the body element
 
-- How do i link another html page and css file?
+- How do i link another html page and css file?       Use the tag `<link rel="stylesheet" href="stylename.css">`
 
 - How do i open the files without Visual Studio Code?
   Right Click the file then select "open with" then press the application you desire
 
 
-Responsive Design FAQ:
+## Responsive Design FAQ:
 - Is the website responsive?
   Yes, CSS media queries adjust styles for smaller screens (969px and 768px breakpoints on main page, 400px on login page)
 
 - How can I add new responsive rules?
   Add additional @media queries inside the respective CSS file
 
-Scripts FAQ:
+##Scripts FAQ:
 
 - Is there any working JavaScript yet?
   No, script.js is empty. Add logic there if needed
 
-Programming FAQ:
+## Programming FAQ:
 - Which IDEs can be used?
   Any text editor or IDE like VS Code, IntelliJ, or Notepad++
 
@@ -88,10 +88,11 @@ Programming FAQ:
   Check if you edited inside the right @media query. For small screens, review max-width: 969px, 768px, or 400px rules
 
 - Hover effects not working
- Try to Confirm the class names in HTML match the CSS selectors exactly
+  Try to Confirm the class names in HTML match the CSS selectors exactly
 
 - Page shows blank or errors
   Ensure all HTML tags are properly opened and closed, and no missing > or quotation marks
+
 - Styles not showing
   Check if register-page-styles.css is correctly linked in <head>
 
@@ -108,10 +109,10 @@ Programming FAQ:
   Expected, since there is no backend. Needs PHP, Node.js, or API endpoint to store user data
   
 - Form action points to main.html but there is no backend handling (placeholder only)
-- Password and confirm password fields are independent; no client-side validation yet
+   Password and confirm password fields are independent; no client-side validation yet
 
 
-#Notes from the developer
+## Notes from the developer
 - This project is **frontend only**.  
 - No JavaScript, PHP, MySQL, or other backend technologies are included.  
 - All forms (Login, Register) are static and do not connect to a database.  
@@ -119,7 +120,7 @@ Programming FAQ:
 - CSS files are used for styling, responsiveness, and animations.  
 - Assets (logos, icons, product images) should be placed inside the **assets/** folder.  
 
----
+
 
 ## Documentation of Files:
 
