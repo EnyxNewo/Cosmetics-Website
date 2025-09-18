@@ -162,12 +162,12 @@ Accounts are not stored. Login and register pages are static placeholders
 ### register-page-styles.css
 - Styles the registration form and its elements.  
 - Elements:  
-  - `body` → animated gradient background, centered container.  
-  - `.register-container` → blurred box container with hover effect.  
-  - `.input-group` → styled input fields with hover/focus glow.  
-  - `input[type="checkbox"]` → checkbox support (not in HTML yet).  
-  - `button[type="submit"]` → gradient register button with hover scaling.  
-  - `.login` → link to login page with hover color change.  
+  - `body` animated gradient background, centered container.  
+  - `.register-container`  blurred box container with hover effect.  
+  - `.input-group`  styled input fields with hover/focus glow.  
+  - `input[type="checkbox"]`  checkbox support (not in HTML yet).  
+  - `button[type="submit"]`  gradient register button with hover scaling.  
+  - `.login`  link to login page with hover color change.  
 - Includes `@keyframes submit` and `@keyframes bgAnimation`.  
 - Responsive rules for screen width under 400px.  
 
