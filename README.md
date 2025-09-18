@@ -139,13 +139,13 @@ Accounts are not stored. Login and register pages are static placeholders
 ### login-styles.css
 - Styles the login form and its elements.  
 - Elements:  
-  - `body` → gradient animated background, centered container.  
-  - `.logo` → resizable logo with hover transform.  
-  - `.login-container` → blurred box container with hover effect.  
-  - `.input-group` → styled input fields with hover and focus effects.  
-  - `input[type="checkbox"]` → custom checkbox scaling on hover.  
-  - `button[type="submit"]` → gradient button with hover scaling.  
-  - `.register, .forgot` → links with hover color change.  
+  - `body`  gradient animated background, centered container.  
+  - `.logo`  resizable logo with hover transform.  
+  - `.login-container`  blurred box container with hover effect.  
+  - `.input-group`  styled input fields with hover and focus effects.  
+  - `input[type="checkbox"]`  custom checkbox scaling on hover.  
+  - `button[type="submit"]`  gradient button with hover scaling.  
+  - `.register, .forgot`  links with hover color change.  
 - Includes `@keyframes submit` and `@keyframes bgAnimation`.  
 - Responsive rules for screen width under 400px.  
 
@@ -184,10 +184,10 @@ Accounts are not stored. Login and register pages are static placeholders
 ### main-page-styles.css
 - Styles the homepage and header.  
 - Elements:  
-  - `body` → gradient background with animation, centered.  
-  - `.header-design-contents1` → fixed header bar with pink background.  
-  - `.header-logo` → circular logo with hover animation.  
-  - `.header-home-button`, `.header-category-dropdown`, `.header-products-button` → styled navigation links with hover background color.  
+  - `body`  gradient background with animation, centered.  
+  - `.header-design-contents1`  fixed header bar with pink background.  
+  - `.header-logo`  circular logo with hover animation.  
+  - `.header-home-button`, `.header-category-dropdown`, `.header-products-button`  styled navigation links with hover background color.  
 - Includes `@keyframes hoverAnim` and `@keyframes bgAnimation`.  
 - Responsive rules for screen width under 400px.  
 
@@ -210,10 +210,10 @@ Accounts are not stored. Login and register pages are static placeholders
 ### products-page-styles.css
 - Styles product listings.  
 - Elements:  
-  - `.product-grid` → grid layout for products.  
-  - `.product-card` → product container with shadow hover effect.  
-  - `.product-name` → product title styling.  
-  - `.product-price` → price styling.  
+  - `.product-grid`  grid layout for products.  
+  - `.product-card`  product container with shadow hover effect.  
+  - `.product-name`  product title styling.  
+  - `.product-price`  price styling.  
 - Responsive rules adjust grid to 2 columns (tablets) and 1 column (mobile).  
 
 
